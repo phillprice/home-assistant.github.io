@@ -22,11 +22,11 @@ Steps to configure your Amazon Fire TV stick with Home Assistant:
 
 - Turn on ADB Debugging on your Amazon Fire TV:
   - From the main (Launcher) screen, select Settings.
-  - Select System > Developer Options.
-  - Select ADB Debugging.
+  - Select My Fire TV > Developer Options.
+  - Switch ADB Debugging to ON.
 - Find Amazon Fire TV device IP:
   - From the main (Launcher) screen, select Settings.
-  - Select System > About > Network.
+  - Select My Fire TV > About > Network.
 - The following commands must be run in a Python 2.x environment. They will allow the component to function in an Ubuntu 16.04/Hassbian environment.
   - `apt-get install swig libssl-dev python-dev libusb-1.0-0 python-yaml`
   - `pip install flask`
